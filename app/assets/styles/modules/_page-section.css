@@ -5,9 +5,9 @@
         padding: 4.5rem 0;
     }
 
-    /* &--red {
-        background-color: $primary;
+    /* &--green {
+        background-color: $green;
         color: $white;
-        border-top: 5px solid $primaryDark;
+        border-top: 5px solid $darkGrey;
     } */
 }
