@@ -1,5 +1,12 @@
-$blue: #16387f;
-$green: #49bb99;
+$primary: #49bb99;
+$primaryDark: #2CA580;
+$primaryLight: #71D3B5;
+$primaryLightest: #A6EAD5;
+$secondary: #16387f;
+$secondaryDark: #0A2868;
+$secondaryLight: #294C98;
 $white: #fbfbfb;
+$grey: #cccccc;
 $lightGrey: #e9e9e9;
 $darkGrey: #979797;
+$black: #333333;
