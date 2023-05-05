@@ -8,7 +8,7 @@
     }
 
     strong {
-        color: $primaryLight;
+        color: $green;
         font-weight: bold;
     }
 
@@ -21,9 +21,9 @@
         text-align: center;
     }
 
-    &--red {
+    /* &--red {
         color: $primary;
-    }
+    } */
 
     &--capitalized {
         text-transform: capitalize;
@@ -47,7 +47,7 @@
         }
     }
 
-    &--widget {
+    /* &--widget {
         font-size: 1rem;
         background-color: $primaryDark;
         padding:.75em 0;
@@ -58,5 +58,5 @@
             padding: inherit;
             background-color: transparent;
         }
-    }
+    } */
 }
