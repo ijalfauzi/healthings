@@ -62,6 +62,19 @@
         }
     }
 
+    &--white {
+        background-color: $white;
+        color: $secondary!important;
+
+        &:hover {
+            background-color: #ccc;
+        }
+    }
+
+    &--transparent {
+        background-color: transparent;
+    }
+
     &--large {
         padding: 1rem 2rem;
     }

@@ -1,6 +1,9 @@
 .site-header {
     display: block;
-    background-color: $primaryDark;
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+    margin-top: -2px;
 
     &__inner {
         display: grid;

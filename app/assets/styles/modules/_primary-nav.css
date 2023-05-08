@@ -50,6 +50,7 @@
 
   li.button a {
     text-transform: capitalize!important;
+    border: 1px solid $white;
   }
 
   .menu {
@@ -63,6 +64,7 @@
     display: block;
     padding: .9375rem .3125rem;
     text-transform: uppercase;
+    font-weight: bold;
   }
   .menu li.subitem a {
     padding: 1rem 1.25rem;
