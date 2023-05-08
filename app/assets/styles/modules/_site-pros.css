@@ -1,0 +1,23 @@
+.site-pros {
+    ul {
+        margin: 3rem 0 0 0;
+        padding: 0 0 0 1rem;
+    }
+    
+    li {
+        list-style:none;
+        margin-bottom: 1.5rem;
+        position: relative;
+        padding: 0 0 0 .5rem;
+    }
+
+    li:before {
+        content: "";
+        position: absolute;
+        top: 4px;
+        left: -16px;
+        width: 16px;
+        height: 16px;
+        background-image: url('https://ijalfauzi.github.io/healthings/assets/images/icons/check.webp');
+    }
+}
