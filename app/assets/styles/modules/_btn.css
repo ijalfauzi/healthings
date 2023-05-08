@@ -31,6 +31,18 @@
         }
     }
 
+    &--grad {
+        background: rgb(73,187,153);
+        background: linear-gradient(180deg, rgba(73,187,153,1) 0%, rgba(22,56,127,1) 100%);
+        color: $white;
+    }
+
+    &--grad-reverse {
+        background: rgb(73,187,153);
+        background: linear-gradient(0deg, rgba(73,187,153,1) 0%, rgba(22,56,127,1) 100%);
+        color: $white;
+    }
+
     &--dark {
         background: linear-gradient(180deg, rgba(7,18,75,.5) 0%, rgba(2,9,46,.5) 100%);
         color: $white;
