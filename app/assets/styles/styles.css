@@ -9,6 +9,7 @@
 @import 'modules/_site-header';
 @import 'modules/_primary-nav';
 @import 'modules/_large-hero';
+@import 'modules/_site-pros';
 @import 'modules/_site-service';
 @import 'modules/_site-application';
 @import 'modules/_site-blog';
