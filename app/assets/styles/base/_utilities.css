@@ -1,3 +1,43 @@
+/* Color */
+
+.white {
+    color: $white;
+}
+
+/* Text Alignments */
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* Backgrounds */
+
 .bg-primary {
     background-color: $primary;
+}
+
+.bg-secondary {
+    background-color: $secondary;
+}
+
+.bg-gradient {
+    background: $primary;
+    background: linear-gradient(180deg, $primary 0%, $secondary 100%);
+}
+
+.bg-gradient-reverse {
+    background: $primary;
+    background: linear-gradient(180deg, $secondary 0%, $primary 100%);
 }
