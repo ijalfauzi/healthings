@@ -3,25 +3,21 @@
     background: $primary;
 
     h2 {
-
+        font-size: 1.75rem;
+        width: 12rem;
     }
 
     .product {
-        border: 2px solid #eee;
-        border-radius: 10px;
+        border: 2px solid $white;
+        border-radius: 15px;
         text-align: center;
         margin: 0 0 1.125rem;
-        transition: all .35s ease-out;
         padding: 1.25rem;
     
         @mixin atSmall {
             margin-bottom: 2.8125rem;
         }
     
-        &:hover {
-            border-color: $primary;
-            transition: all .35s ease-out;
-        }
     
         @mixin atSmall {
             padding: 1.25rem;
@@ -37,7 +33,9 @@
         }
     
         &__title {
+            font-size: .75rem;
             margin: 0 0 .5em;
+            font-weight: bold;
         }
     
         &__description {
