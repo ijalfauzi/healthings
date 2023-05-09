@@ -1,3 +1,9 @@
 .site-offering {
-
+    h2 {
+        text-transform: inherit;
+        color: $primary;
+        font-weight: bold;
+        margin: 0 0 2rem;
+        font-size: 3.25rem;
+    }
 }
