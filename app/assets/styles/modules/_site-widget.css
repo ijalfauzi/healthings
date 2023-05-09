@@ -1,8 +1,15 @@
 .site-widget {
+    padding-bottom: 9.563rem;
     text-align: center;
+    background: rgb(73,187,153);
+    background: linear-gradient(225deg, rgba(73,187,153,1) 0%, rgba(22,56,127,1) 100%);
 
     @mixin atMedium {
         text-align: inherit;
+    }
+
+    h3 {
+        color: $white;
     }
 
     a {
