@@ -1,4 +1,4 @@
-/* Color */
+/* Text Colors */
 
 .text-white {
     color: $white;
@@ -24,6 +24,30 @@
 
 .text-justify {
     text-align: justify;
+}
+
+/* Text Transforms */
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-inherit {
+    text-transform: inherit;
+}
+
+/* Font Styles */
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-italic {
+    font-style: italic;
 }
 
 /* Backgrounds */
