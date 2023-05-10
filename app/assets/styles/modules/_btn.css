@@ -11,13 +11,13 @@
         color: $white;
     }
 
-    &--red {
-        background-color: $primary;
+    &--secondary {
+        background-color: $secondary;
         color: $white;
         border: none;
 
         &:hover {
-            background-color: $primaryDark;
+            background-color: $secondaryDark;
         }
     }
 
