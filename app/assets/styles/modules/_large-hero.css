@@ -89,6 +89,26 @@
     background-color: $white;
     padding: 4rem 3rem;
     border-radius: 1.5rem;
+
+    p {
+        margin: 0;
+    }
+
+    p.first-line {
+        font-size: 2rem;
+
+        span {
+            font-weight: bold;
+            color: $primary;
+        }
+    }
+    p.second-line {
+        font-size: 1.5rem;
+    }
+    p.third-line {
+        font-size: 1rem;
+        color: $grey;
+    }
 }
 
 
