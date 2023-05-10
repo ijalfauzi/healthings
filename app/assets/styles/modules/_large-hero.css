@@ -6,7 +6,7 @@
     z-index: 1;
 
     @mixin atSmall {
-    padding: 6.5rem 0;
+    padding: 6.5rem 0 4.5rem;
     }
 
     &:before {
@@ -16,7 +16,7 @@
         background-color: $primary;
         width: 40rem;
         height: 26rem;
-        border-radius: 0 1.5rem 0 0;   
+        border-radius: 0 3rem 0 0;   
         bottom: 0;
         left: 0;
     }
