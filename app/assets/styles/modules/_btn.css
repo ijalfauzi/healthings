@@ -5,6 +5,12 @@
     border-radius: .75rem;
     display: inline-block;
 
+    img {
+        vertical-align: middle;
+        margin-left: .5rem;
+        margin-top: -.125rem;
+    }
+
     &:hover{
         background-color: $primary;
         color: $white;
