@@ -9,6 +9,18 @@
     padding: 6.5rem 0;
     }
 
+    &:before {
+        position: absolute;
+        content: '';
+        z-index: -1;
+        background-color: $primary;
+        width: 40rem;
+        height: 26rem;
+        border-radius: 0 1.5rem 0 0;   
+        bottom: 0;
+        left: 0;
+    }
+
     &__image {
         position: absolute;
         top: 0;
@@ -76,7 +88,7 @@
 .featured {
     background-color: $white;
     padding: 4rem 3rem;
-    border-radius: 30px;
+    border-radius: 1.5rem;
 }
 
 
