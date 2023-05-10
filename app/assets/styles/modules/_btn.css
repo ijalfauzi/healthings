@@ -2,7 +2,7 @@
     background-color: #fff;
     padding: .4375rem 1rem;
     color: $primary;
-    border-radius: 5px;
+    border-radius: .75rem;
     display: inline-block;
 
     &:hover{
