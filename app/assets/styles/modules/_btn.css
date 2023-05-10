@@ -30,6 +30,10 @@
         }
     }
 
+    &--white {
+        background-color: $white;
+    }
+
     &--featured {
         @mixin atMedium {
             margin-bottom: 5px;
