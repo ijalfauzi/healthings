@@ -15,7 +15,7 @@
         z-index: -1;
         background-color: $primary;
         width: 40rem;
-        height: 26rem;
+        height: 25rem;
         border-radius: 0 3rem 0 0;   
         bottom: 0;
         left: 0;
@@ -78,6 +78,12 @@
         text-align: center;
         margin-bottom: 1.25rem;
 
+        a {
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: .8rem;
+        }
+
         @mixin atSmall {
             text-align: inherit;
             margin-bottom: 0;
@@ -109,6 +115,11 @@
             }
         }
     }
+}
+
+.custom {
+    position: relative;
+    top: -2.5rem;
 }
 
 .featured {
