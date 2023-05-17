@@ -100,6 +100,7 @@
         color: $white;
         font-size: .875rem;
         border-radius: 0 1rem 1rem 0;
+        box-shadow: 0 .188rem 0 0 $lightGrey;
 
         &--grey {
             background-color: $darkGrey;
