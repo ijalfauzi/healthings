@@ -1,4 +1,6 @@
 .site-pros {
+    border-top: .5rem solid $lightGrey;
+
     h2 {
         font-size: 1.75rem;
         text-transform: capitalize;
