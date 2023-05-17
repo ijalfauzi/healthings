@@ -1,6 +1,7 @@
 .site-product {
     color: $white;
     background: $primary;
+    border-top: .5rem solid $primaryDark;
 
     h2 {
         font-size: 1.75rem;
@@ -8,7 +9,7 @@
     }
 
     .product {
-        border: 2px solid $white;
+        box-shadow: 0 .5rem 0 0 $secondaryDark;
         border-radius: 15px;
         text-align: center;
         margin: 0 0 1.125rem;
