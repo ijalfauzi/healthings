@@ -1,4 +1,8 @@
 .site-offering {
+    border-width: .5rem 0;
+    border-style: solid;
+    border-color: $lightGrey;
+
     h2 {
         text-transform: inherit;
         color: $primary;
