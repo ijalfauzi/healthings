@@ -31,9 +31,15 @@
         color: $white;
         border: none;
         box-shadow: 0 .25rem 0 0 $secondaryDark;
+        transition: .25s;
 
         &:hover { 
             background: linear-gradient(180deg, $secondary 0%, $secondaryLight 100%);
+        }
+
+        &:active {
+            transform: translateY(3px);
+            box-shadow: 0 .125rem 0 0 $secondaryDark;
         }
     }
 
