@@ -1,19 +1,16 @@
 .btn {
     background-color: #fff;
     padding: .4375rem 1rem;
-    color: $primary;
+    color: $white;
+    border: none;
     border-radius: .75rem;
     display: inline-block;
+    transition: .15s;
 
     img {
         vertical-align: middle;
         margin-left: .5rem;
         margin-top: -.125rem;
-    }
-
-    &:hover{
-        background-color: $primary;
-        color: $white;
     }
 
     &--large {
@@ -22,25 +19,24 @@
 
     &--primary {
         background: linear-gradient($primaryLight, $primary);
-        color: $white;
-        border: none;
         box-shadow: 0 .25rem 0 0 $primaryDark;
-        transition: .15s;
 
         &:hover {
-            background-color: $primaryDark;
+            background: linear-gradient($primary, $primaryLight);
+        }
+
+        &:active {
+            transform: translateY(3px);
+            box-shadow: 0 .125rem 0 0 $primaryDark;
         }
     }
 
     &--secondary {
         background: linear-gradient($secondaryLight, $secondary);
-        color: $white;
-        border: none;
         box-shadow: 0 .25rem 0 0 $secondaryDark;
-        transition: .15s ease;
 
         &:hover { 
-            background: linear-gradient(180deg, $secondary 0%, $secondaryLight 100%);
+            background: linear-gradient($secondary, $secondaryLight);
         }
 
         &:active {
@@ -50,11 +46,8 @@
     }
 
     &--grad {
-        background: rgb(73,187,153);
         background: linear-gradient($secondary, $primary);
         box-shadow: 0 .25rem 0 0 $primaryDark;
-        color: $white;
-        transition: .15s;
 
         &:hover {
             background: linear-gradient($primary, $secondary);
