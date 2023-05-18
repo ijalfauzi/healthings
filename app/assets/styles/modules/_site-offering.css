@@ -2,6 +2,7 @@
     border-width: .5rem 0;
     border-style: solid;
     border-color: $lightGrey;
+    background-color: #fff;
 
     h2 {
         text-transform: inherit;
