@@ -3,6 +3,7 @@
     text-align: center;
     background: rgb(73,187,153);
     background: linear-gradient(225deg, rgba(73,187,153,1) 0%, rgba(22,56,127,1) 100%);
+    border-top: .5rem solid $lightGrey;
 
     @mixin atMedium {
         text-align: inherit;

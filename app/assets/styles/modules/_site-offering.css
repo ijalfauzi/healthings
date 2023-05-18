@@ -1,7 +1,5 @@
 .site-offering {
-    border-width: .5rem 0;
-    border-style: solid;
-    border-color: $lightGrey;
+    border-top: .5rem solid $lightGrey;
     background-color: #fff;
 
     h2 {
