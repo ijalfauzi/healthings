@@ -16,10 +16,16 @@
         color: $white;
     }
 
+    &--large {
+        padding: 1rem 2rem;
+    }
+
     &--primary {
-        background-color: $primary;
+        background: linear-gradient($primaryLight, $primary);
         color: $white;
         border: none;
+        box-shadow: 0 .25rem 0 0 $primaryDark;
+        transition: .15s;
 
         &:hover {
             background-color: $primaryDark;
@@ -27,11 +33,11 @@
     }
 
     &--secondary {
-        background: linear-gradient(180deg, $secondaryLight 0%, $secondary 100%);
+        background: linear-gradient($secondaryLight, $secondary);
         color: $white;
         border: none;
         box-shadow: 0 .25rem 0 0 $secondaryDark;
-        transition: .25s;
+        transition: .15s ease;
 
         &:hover { 
             background: linear-gradient(180deg, $secondary 0%, $secondaryLight 100%);
@@ -43,75 +49,22 @@
         }
     }
 
-    &--white {
-        background-color: $white;
-    }
-
-    &--featured {
-        @mixin atMedium {
-            margin-bottom: 5px;
-        }
-
-        @mixin atLarge {
-            margin: 0;
-        }
-    }
-
     &--grad {
         background: rgb(73,187,153);
-        background: linear-gradient($primary, $secondary);
-        box-shadow: 0 .25rem 0 0 $secondaryDark;
+        background: linear-gradient($secondary, $primary);
+        box-shadow: 0 .25rem 0 0 $primaryDark;
         color: $white;
+        transition: .15s;
 
         &:hover {
-            background: linear-gradient($secondary, $primary);
-            box-shadow: 0 .25rem 0 0 $primaryDark;
+            background: linear-gradient($primary, $secondary);
+            box-shadow: 0 .25rem 0 0 $secondaryDark;
         }
-    }
 
-    &--grad-reverse {
-        background: rgb(73,187,153);
-        background: linear-gradient(0deg, rgba(73,187,153,1) 0%, rgba(22,56,127,1) 100%);
-        color: $white;
-    }
-
-    &--dark {
-        background: linear-gradient(180deg, rgba(7,18,75,.5) 0%, rgba(2,9,46,.5) 100%);
-        color: $white;
-        margin-top: 15px;
-
-        &:hover {
-            background: linear-gradient(180deg, rgba(2,9,46,.5) 0%, rgba(7,18,75,.5) 100%);
+        &:active {
+            transform: translateY(3px);
+            box-shadow: 0 .125rem 0 0 $secondaryDark;
         }
-    }
-
-    &--yellow {
-        background: $secondary;
-        background: linear-gradient(180deg, $secondary 0%, $secondaryDark 100%);
-
-        &:hover {
-            background: linear-gradient(180deg, $secondaryDark 0%, $secondary 100%);
-        }
-    }
-
-    &--white {
-        background-color: $white;
-        color: $secondary!important;
-
-        &:hover {
-            background-color: #ccc;
-        }
-    }
-
-    &--transparent {
-        background-color: transparent;
-    }
-
-    &--large {
-        padding: 1rem 2rem;
     }
 }
 
-a.btn--yellow {
-    color: $primaryDark!important;
-}
