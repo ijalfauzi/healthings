@@ -164,3 +164,11 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .custom {
+        text-align: center;
+        top: 0;
+        padding: 0 0 2rem;
+    }
+}
