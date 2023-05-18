@@ -1,6 +1,5 @@
 .site-content {
     position: relative;
-    background: $grey;
 
     @mixin atSmall {
         padding: 6.5rem 0;
@@ -8,6 +7,7 @@
 
     h1 {
         font-size: 1.5rem;
+        color: $white;
 
         @mixin atSmall {
             font-size: 2rem;
@@ -27,9 +27,6 @@
       margin-bottom: 2rem;
     }
 
-    h1, p.subtitle {
-        color: $primary;
-    }
 
     a {
       color: $primaryLight;
@@ -61,13 +58,7 @@
     .site-content {
         padding: 4.5rem 0;
     }
-    
-    /* Reduce large hero background on medium screen */
-    .site-content::before {
-        top: -80px;
-        left: -40px;
     }
-}
   
   /* Timeline Container */
   .timeline {
@@ -525,5 +516,26 @@
     img {
       max-width: 100px;
     }
+  }
+}
+
+.page-content {
+  background-color: $white;
+  padding: 4rem 4rem;
+  border-radius: 2rem;
+  box-shadow: inset 0 -.5rem 0 0 $lightGrey;
+
+  h2 {
+    margin-top: 0;
+    color: $primary;
+    text-align: center;
+  }
+
+  ul {
+
+  }
+
+  li {
+    list-style: none;
   }
 }
