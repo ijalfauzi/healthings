@@ -29,7 +29,7 @@
 
 
     a {
-      color: $primaryLight;
+      color: #020075;
 
       &:hover {
         text-decoration: underline;
