@@ -23,8 +23,8 @@
 
     p.subcta {
       text-align: center;
-      margin-top: 0;
-      margin-bottom: 2rem;
+      margin: 0 2rem 2rem;
+      font-size: 1.25rem;
     }
 
 
