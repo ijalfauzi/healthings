@@ -1,5 +1,5 @@
 .large-hero {
-    position: relative;
+    
     background: rgb(73,187,153);
     background: linear-gradient(45deg, rgba(73,187,153,1) 0%, rgba(22,56,127,1) 75%);
     margin-top: -94px;
@@ -7,6 +7,7 @@
 
     @mixin atSmall {
     padding: 8.5rem 0 4.5rem;
+    position: relative;
     }
 
     &:before {
@@ -160,6 +161,11 @@
 
 @media screen and (max-width: 1024px) {
     /* Remove top left background on 1024px screen */
+
+    .large-hero, .custom {
+        position: static;
+    }
+
     .large-hero::before {
         display: none;
     }
@@ -170,5 +176,11 @@
         text-align: center;
         top: 0;
         padding: 0 0 2rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .large-hero {
+        padding-top: 7.375rem;
     }
 }
