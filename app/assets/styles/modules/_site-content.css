@@ -210,22 +210,6 @@
     max-width: 100%!important;
     border-radius: 10px;
   }
-
-  .konsultasi {
-    background: url(https://ijalfauzi.github.io/primadoc/assets/images/konsultasi-arsip-bg.webp);
-  }
-  .pemeliharaan {
-    background: url(https://ijalfauzi.github.io/primadoc/assets/images/pemeliharaan-arsip-bg.webp);
-  }
-  .alih {
-    background: url(https://ijalfauzi.github.io/primadoc/assets/images/alih-media-arsip-bg.webp);
-  }
-  .aplikasi {
-    background: url(https://ijalfauzi.github.io/primadoc/assets/images/aplikasi-primadoc-bg.webp);
-  }
-  .sarana {
-    background: url(https://ijalfauzi.github.io/primadoc/assets/images/sarana-prasarana-arsip-bg.webp);
-  }
   
   /* Title of the card */
   .title {
