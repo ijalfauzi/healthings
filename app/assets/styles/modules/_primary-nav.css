@@ -120,7 +120,7 @@
     font-size: .75rem;
   }
   .has-submenu > a::after {
-    content: url(https://ijalfauzi.github.io/aviat/assets/images/icons/arrow-alt.webp);
+    content: url('https://healthings.id/wp-content/themes/healthee/assets/images/icons/arrow-alt.webp');
     padding-left: .3125rem;
   }
   .subitem a {

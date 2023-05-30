@@ -4,10 +4,4 @@
     @mixin atMedium {
         padding: 4.5rem 0;
     }
-
-    /* &--green {
-        background-color: $green;
-        color: $white;
-        border-top: 5px solid $darkGrey;
-    } */
 }
