@@ -6,6 +6,11 @@
     border-radius: .75rem;
     display: inline-block;
     transition: .15s;
+    margin-bottom: .75rem;
+
+    @mixin atSmall {
+        margin-bottom: 0;
+    }
 
     img {
         vertical-align: middle;
@@ -14,7 +19,11 @@
     }
 
     &--large {
-        padding: 1rem 2rem;
+        padding: .4375rem 1rem;
+
+        @mixin atSmall {
+            padding: 1rem 2rem;
+        }
     }
 
     &--primary {
