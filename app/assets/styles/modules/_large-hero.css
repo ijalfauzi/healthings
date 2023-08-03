@@ -184,3 +184,9 @@
         padding-top: 7.375rem;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .large-hero:before {
+        width: 53rem;
+    }
+}
