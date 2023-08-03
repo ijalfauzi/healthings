@@ -16,7 +16,7 @@
         z-index: -1;
         background-color: $primary;
         width: 43rem;
-        height: 25rem;
+        height: 28rem;
         border-radius: 0 3rem 0 0;   
         bottom: 0;
         left: 0;
@@ -102,15 +102,22 @@
         font-size: .875rem;
         border-radius: 0 1rem 1rem 0;
         box-shadow: 0 .188rem 0 0 $lightGrey;
+        
 
-        &--grey {
+        &--darkgrey {
             background-color: $darkGrey;
             margin-bottom: 1rem;
         }
 
+        &--grey {
+            background-color: $grey;
+            margin-bottom: 1rem;
+            width: 90%;
+        }
+
         &--green {
             background-color: $primary;
-            width: 73.5%;
+            width: 64%;
 
             img {
                 height: .875rem;
@@ -137,6 +144,7 @@
     p.first-line {
         font-size: 2rem;
         font-weight: 700;
+        margin-top: 1.75rem;
 
         span {
             color: $primary;
