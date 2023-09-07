@@ -436,3 +436,9 @@
     line-height: 1.75;
   }
 }
+
+#content-wrapper {
+  background-color: $white;
+  padding: 4rem 1.75rem;
+  border-radius: 1rem;
+}
